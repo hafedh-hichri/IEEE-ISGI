@@ -46,7 +46,7 @@ def intro():
             # creating the feature
             X = [[age, cp, trestbps, chol, fbs, restecg, thalach, exang,
    oldpeak, slope, ca, thal]]
-            # predicting the charges
+            # predicting the state
             pred = model.predict(X)
             # final state 
             if pred[0] == 0 : 
